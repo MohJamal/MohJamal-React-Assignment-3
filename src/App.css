@@ -1,3 +1,15 @@
 .App {
-  text-align: center;
+  display: flex;
+  min-height: 93vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.App > h2 {
+  font-size: 2rem;
+  color: #00c4ff;
 }
