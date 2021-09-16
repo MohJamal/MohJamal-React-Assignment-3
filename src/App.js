@@ -33,6 +33,9 @@ function App() {
   };
 
   useEffect(() => {
+    /* put all data fetching methods into one function in order 
+    to make loading'value changes when all data have been fetched */
+
     fetchData();
   }, []);
 
